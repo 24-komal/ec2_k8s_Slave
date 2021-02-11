@@ -42,7 +42,9 @@ Dependencies
 ------------
 
 A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles. In this role there is no variable to define only run this role.
-
+Configure this role first for the same:-
+       - 24_komal.aws_ec2_dynamic_inventory
+       - 24_komal.ec2_k8s_Master
 
 Example Playbook
 ----------------
