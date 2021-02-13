@@ -1,13 +1,15 @@
 galaxy_info:
-  author: Komal Suthar
+  author: Komal 
   description: Role for doing the setup of k8s Slave on AWS Amazon linux 2 image.
   company: Student
+  licence: "licence (BSD, MIT)"
 
-  issue_tracker_url: http://example.com/issue/tracker
- 
-  license: license (GPL-2.0-or-later, MIT, etc)
+  platforms:
+  - name: AmazonLinux2
+    versions:
+    - all
 
-  min_ansible_version: 2.1
+  min_ansible_version: 2.4
   
   galaxy_tags:
           - aws
@@ -16,6 +18,5 @@ galaxy_info:
           - k8s
           - kubernetes
           - slave
-          - amazon linux 2
-            
+          
 dependencies: []
