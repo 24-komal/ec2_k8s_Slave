@@ -2,12 +2,11 @@ galaxy_info:
   author: Komal 
   description: Role for doing the setup of k8s Slave on AWS Amazon linux 2 image.
   company: Student
-  licence: "licence (BSD, MIT)"
 
   platforms:
-  - name: AmazonLinux2
+  - name: Linux
     versions:
-    - all
+    - 2
 
   min_ansible_version: 2.4
   
